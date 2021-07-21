@@ -1,0 +1,29 @@
+<breadboard>
+  <setting key="numberOfBreadboards" value="1" />
+  <setting key="simulationSpeed" value="1" />
+  <setting key="positiveRailVoltage" value="5" />
+  <setting key="negativeRailVoltage" value="-5" />
+  <component ref="SW1" type="SPDT Switch" startX="105" startY="120" angle="0" state="True" />
+  <component ref="SW2" type="SPDT Switch" startX="105" startY="225" angle="0" state="True" />
+  <component ref="IC1" type="Integrated Circuit" startX="165" startY="150" angle="0" model="4001 NOR" />
+  <component ref="R1" type="Resistor" startX="330" startY="240" angle="0" value="100" orientation="horiz" length="3" />
+  <component ref="R2" type="Resistor" startX="420" startY="240" angle="0" value="100" orientation="horiz" length="3" />
+  <component ref="D1" type="LED" startX="375" startY="225" angle="0" model="Red" />
+  <component ref="D2" type="LED" startX="465" startY="225" angle="0" model="Red" />
+  <wire startX="91" startY="91" length="-2" orientation="vert" colour="#FFFF0000" />
+  <wire startX="91" startY="196" length="-3" orientation="vert" colour="#FFFF0000" />
+  <wire startX="121" startY="286" length="-2" orientation="vert" colour="#FF000000" />
+  <wire startX="121" startY="196" length="-3" orientation="vert" colour="#FF000000" />
+  <wire startX="166" startY="91" length="-2" orientation="vert" colour="#FFFF0000" />
+  <wire startX="256" startY="286" length="-2" orientation="vert" colour="#FF000000" />
+  <wire startX="106" startY="106" length="2" orientation="horiz" colour="#FFFF7F50" />
+  <wire startX="136" startY="151" length="3" orientation="vert" colour="#FFFF7F50" />
+  <wire startX="136" startY="211" length="3" orientation="horiz" colour="#FFFF7F50" />
+  <wire startX="106" startY="241" length="9" orientation="horiz" colour="#FF8B008B" />
+  <wire startX="211" startY="226" length="-3" orientation="horiz" colour="#FFFFFF00" />
+  <wire startX="391" startY="286" length="-3" orientation="vert" colour="#FF000000" />
+  <wire startX="481" startY="286" length="-2" orientation="vert" colour="#FF000000" />
+  <wire startX="196" startY="256" length="2" orientation="horiz" colour="#FF006400" />
+  <wire startX="226" startY="226" length="7" orientation="horiz" colour="#FF006400" />
+  <wire startX="211" startY="211" length="14" orientation="horiz" colour="#FFFFFF00" />
+</breadboard>
